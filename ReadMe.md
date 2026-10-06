@@ -37,6 +37,9 @@ if ($result->isBlocked()) {
 
 $userId = createUser();
 $risk->record($signals, $userId,$result);
+
+```
+
 Requirements
 PHP 8.0+
 
